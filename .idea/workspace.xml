@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9fd7507-a00a-4e86-86cf-18fc1dd3ea4e" name="Changes" comment="비밀번호 유효성 검증기 세팅">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CorrectFixedPasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WrongFixedPasswordGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="d9fd7507-a00a-4e86-86cf-18fc1dd3ea4e" name="Changes" comment="랜덤 비밀번호 생성기가 내부에 있던 구조 -&gt; 테스트의 어려움 -&gt;인터페이스 생성을 통해 외부에서 주입받고 결합도를 낮춘다">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomPasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/password/RandomPasswordGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666329539390</updated>
       <workItem from="1666329544346" duration="9542000" />
-      <workItem from="1666407855359" duration="2133000" />
+      <workItem from="1666407855359" duration="2587000" />
     </task>
     <task id="LOCAL-00001" summary="비밀번호 유효성 검증기 세팅">
       <created>1666340102287</created>
@@ -195,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666340102287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="랜덤 비밀번호 생성기가 내부에 있던 구조 -&gt; 테스트의 어려움 -&gt;인터페이스 생성을 통해 외부에서 주입받고 결합도를 낮춘다">
+      <created>1666410147971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666410147971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +216,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="비밀번호 유효성 검증기 세팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="비밀번호 유효성 검증기 세팅" />
+    <MESSAGE value="랜덤 비밀번호 생성기가 내부에 있던 구조 -&gt; 테스트의 어려움 -&gt;인터페이스 생성을 통해 외부에서 주입받고 결합도를 낮춘다" />
+    <option name="LAST_COMMIT_MESSAGE" value="랜덤 비밀번호 생성기가 내부에 있던 구조 -&gt; 테스트의 어려움 -&gt;인터페이스 생성을 통해 외부에서 주입받고 결합도를 낮춘다" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
