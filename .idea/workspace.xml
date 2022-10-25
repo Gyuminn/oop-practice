@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9fd7507-a00a-4e86-86cf-18fc1dd3ea4e" name="Changes" comment="FunctionalInterface 선언을 통해 구조체를 따로 만들지 않고 람다 방식으로 구현해도 된다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="d9fd7507-a00a-4e86-86cf-18fc1dd3ea4e" name="Changes" comment="feat: 덧셈 연산과 뺄셈 연산 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <updated>1666329539390</updated>
       <workItem from="1666329544346" duration="9542000" />
       <workItem from="1666407855359" duration="2795000" />
-      <workItem from="1666695460999" duration="1265000" />
+      <workItem from="1666695460999" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="비밀번호 유효성 검증기 세팅">
       <created>1666340102287</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666412827922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 덧셈 연산과 뺄셈 연산 기능 추가">
+      <created>1666696758790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666696758790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="비밀번호 유효성 검증기 세팅" />
     <MESSAGE value="랜덤 비밀번호 생성기가 내부에 있던 구조 -&gt; 테스트의 어려움 -&gt;인터페이스 생성을 통해 외부에서 주입받고 결합도를 낮춘다" />
     <MESSAGE value="FunctionalInterface 선언을 통해 구조체를 따로 만들지 않고 람다 방식으로 구현해도 된다." />
-    <option name="LAST_COMMIT_MESSAGE" value="FunctionalInterface 선언을 통해 구조체를 따로 만들지 않고 람다 방식으로 구현해도 된다." />
+    <MESSAGE value="feat: 덧셈 연산과 뺄셈 연산 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 덧셈 연산과 뺄셈 연산 기능 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
