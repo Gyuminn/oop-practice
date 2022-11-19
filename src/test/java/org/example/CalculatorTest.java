@@ -5,6 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -23,14 +24,15 @@ public class CalculatorTest {
     //   3  <--------
     @DisplayName("덧셈 연산을 수행한다")
     @ParameterizedTest
-    @MethodSource("formulaAndTest")
+    @MethodSource("formulaAndResult")
     void calculateTest(int operand1, String operator, int operand2, int result) {
-        int calculateResult = Calculator.caculate(operand1, operator, operand2);
+        // 1. 테스트 코드를 통해서 Calculoator에게 작업을 위임한다.
+        int calculateResult = Calculator.calculate(operand1, operator, operand2);
 
         assertThat(calculateResult).isEqualTo(result);
     }
 
-    private static Stream<Arguments> formulaAndTest() {
+    private static Stream<Arguments> formulaAndResult() {
         return Stream.of(
                 arguments(1, "+", 2, 3),
                 arguments(1, "-", 2, -1),
