@@ -8,7 +8,7 @@ public class Calculator {
     // 4. 각각의 구현체들을 인터페이스인 NewArithmerticOperator를 통해서 받는다. 더 이상 ENUM 사용 x
     private static final List<NewArithmeticOperator> arthemeticOperators = List.of(new AdditionOperator(), new SubtractionOperator(), new MultiplicationOperator(), new DivisionOperator());
 
-    public static int calculate(int operand1, String operator, int operand2) {
+    public static int calculate(PositiveNumber operand1, String operator, PositiveNumber operand2) {
         return arthemeticOperators.stream()
                 .filter(arthemeticOperator -> arthemeticOperator.supports(operator))
                 .map(arthemeticOperator -> arthemeticOperator.calculate(operand1, operand2))
